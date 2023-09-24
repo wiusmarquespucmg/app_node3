@@ -13,7 +13,7 @@ export default {
         let config = {
             method: 'GET',
             maxBodyLength: Infinity,
-            url: 'http://localhost:3002/api/v1/clients',
+            url: '/clients',
             headers: { 
               'Authorization': `Bearer ${token}`
             }
@@ -37,7 +37,7 @@ export default {
         let config = {
             method: 'POST',
             maxBodyLength: Infinity,
-            url: 'http://localhost:3002/api/v1/clients',
+            url: '/clients',
             headers: { 
                 'Content-Type': 'application/json', 
                 'Authorization': `Bearer ${token}`
@@ -54,7 +54,7 @@ export default {
         let config = {
             method: 'GET',
             maxBodyLength: Infinity,
-            url: `http://localhost:3002/api/v1/clients/${id}`,
+            url: `/clients/${id}`,
             headers: { 
               'Authorization': `Bearer ${token}`
             }
@@ -79,7 +79,7 @@ export default {
         let config = {
             method: 'PUT',
             maxBodyLength: Infinity,
-            url: `http://localhost:3002/api/v1/clients/${id}`,
+            url: `/clients/${id}`,
             headers: { 
                 'Content-Type': 'application/json', 
                 'Authorization': `Bearer ${token}`
@@ -96,7 +96,7 @@ export default {
         let config = {
             method: 'DELETE',
             maxBodyLength: Infinity,
-            url: `http://localhost:3002/api/v1/clients/${id}`,
+            url: `/clients/${id}`,
             headers: {
                 'Authorization': `Bearer ${token}`
             }

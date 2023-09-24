@@ -22,7 +22,7 @@ export default {
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: 'http://localhost:3002/api/v1/login',
+            url: '/login',
             headers: { 
                 'Content-Type': 'application/json'
             },
@@ -44,7 +44,7 @@ export default {
             let config = {
                 method: 'post',
                 maxBodyLength: Infinity,
-                url: 'http://localhost:3002/api/v1/register',
+                url: '/register',
                 headers: { 
                     'Content-Type': 'application/json'
                 },
