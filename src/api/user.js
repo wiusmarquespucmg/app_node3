@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 
-axios.defaults.baseURL = "http://92.119.129.36/api/v1";
+axios.defaults.baseURL = process.env.VUE_APP_API_URL;
 
 
 
